@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/home/el/.vim'
+let g:netrw_dirhist_7='/home/el'
+let g:netrw_dirhist_6='/home/el/.config/chezmoi'
+let g:netrw_dirhist_5='/home/el/.config'
+let g:netrw_dirhist_4='/home/el'
+let g:netrw_dirhist_3='/home/el/.config'
+let g:netrw_dirhist_2='/home/el/.config/Raspberry Pi'
+let g:netrw_dirhist_1='/home/el/.config'
+let g:netrw_dirhist_0='/home/el/.config/nvim'
+let g:netrw_dirhist_9='/home/el/.config/nvim/lua/plugins'
