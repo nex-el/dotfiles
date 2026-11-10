@@ -1,0 +1,21 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+#PS1='[\u@\h \W]\$ '
+PS1='\[\e[38;5;135m\]╭─\[\e[38;5;35m\](\[\e[38;5;141m\]\t\[\e[38;5;35m\])\[\e[38;5;135m\]-\[\e[38;5;35m\](\[\e[38;5;141m\]\j\[\e[38;5;35m\])\[\e[38;5;135m\]-\[\e[38;5;35m\](\[\e[38;5;141m\]\u\[\e[0m\] \[\e[38;5;141m\]:\[\e[0m\] \[\e[38;5;141m\]\h\[\e[38;5;35m\])\[\e[38;5;135m\]-\[\e[38;5;35m\](\[\e[38;5;141m\]\w\[\e[38;5;35m\])\n\[\e[38;5;135m\]╰ ~\[\e[38;5;224m\] \[\e[0m\]'
+# if [ -z "$SSH_AUTH_SOCK" ]; then
+    eval $(ssh-agent -s)
+    ssh-add
+# fi    
+# use proton https://protonpass.github.io/pass-cli/commands/login/
+# command pass-cli login
+# export path needed
+export PATH="/home/el/.local/bin:$PATH"
+# fastfetch use json file
+fastfetch
